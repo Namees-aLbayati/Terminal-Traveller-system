@@ -11,6 +11,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(routes);
 sequelize.sync({force:false}).then(()=>{
   app.listen(PORT,()=>{
-    console.log("listening Namees 3001 local host");
+    console.log("listening Namees 3001 local host 3001port");
   });
 });
+//comment git branch
